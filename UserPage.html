@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es-VE">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="CSS/Styles.css">
+    <link rel="stylesheet" href="icomoon.css">
+    <script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="Jquery/main.js"></script>
+    <link rel="icon" href="post-it.ico">
+    <title>Mis de Tareas</title>
+</head>
+
+<body>
+    <div class="principal">
+        <header id="titulo">
+            Mis Tareas
+        </header>
+        <div class="wrap">
+            <form class="formulario" action="">
+                <input type="text" id="tareaInput" placeholder="Agrega tu tarea">
+                <input type="button" class="boton" id="btn-agregar" value="Agregar Tarea">
+            </form>
+        </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#"><span class="icon-home"></span>Inicio</a></li>
+            <li><a href="#"><span class="icon-profile"></span>configuración</a></li>
+            <li><a href="#"><span class="icon-earth"></span>Servicios</a></li>
+            <li><a href="#"><span class="icon-mail"></span>Contáctenos</a></li>
+
+        </ul>
+    </nav>
+
+    <div class="tareas">
+        <div class="wrap">
+            <ul class="lista" id="lista">
+                <li><a href="#">Primera Tarea</a></li>
+                <li><a href="#">Segunda Tarea</a></li>
+                <li><a href="#">Tercera Tarea</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <button id="cerrar">Cerrar Sesión</button>
+    <script src="Javascript/script.js"></script>
+</body>
+
+</html>
